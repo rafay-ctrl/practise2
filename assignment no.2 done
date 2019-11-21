@@ -1,0 +1,183 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter your maths marks out of 10077\n",
+      "enter your physics marks out of 10088\n",
+      "enter your chemistry marks out of 10056\n",
+      "enter your urdu marks out of 10055\n",
+      "enter your islamiat marks out of 10044\n",
+      "your grade is B\n"
+     ]
+    }
+   ],
+   "source": [
+    "# question no 1\n",
+    "x=int(input(\"enter your maths marks out of 100\"));\n",
+    "y=int(input(\"enter your physics marks out of 100\"));\n",
+    "z=int(input(\"enter your chemistry marks out of 100\"));\n",
+    "a=int(input(\"enter your urdu marks out of 100\"));\n",
+    "b=int(input(\"enter your islamiat marks out of 100\"));\n",
+    "if ((x+y+z+a+b)*100)/500>=80:\n",
+    "    print(\"your grade is A+\");\n",
+    "elif ((x+y+z+a+b)*100)/500<80 and ((x+y+z+a+b)*100)/500>=70:\n",
+    "    print(\"your grade is A\");\n",
+    "elif ((x+y+z+a+b)*100)/500>60 and ((x+y+z+a+b)*100)/500>=60:\n",
+    "    print(\"your grade is B\");\n",
+    "elif ((x+y+z+a+b)*100)/500>=0 and ((x+y+z+a+b)*100)/500>=50:\n",
+    "    print(\"you are failed\");\n",
+    "else :\n",
+    "    print(\"you have entered an inappropriate value\");"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter a number67\n",
+      "your number is odd\n"
+     ]
+    }
+   ],
+   "source": [
+    "# question no 2\n",
+    "x=int(input(\"enter a number\"));\n",
+    "if x%2==0:\n",
+    "    print(\"your number is even\");\n",
+    "else:\n",
+    "    print(\"your number is odd\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "7"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#question no 3\n",
+    "arr=[\"ali\",\"ahmed\",\"ahsan\",\"abdul\",False,True,39]\n",
+    "len(arr)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "how many numbers:2\n",
+      "enter any number1\n",
+      "enter any number2\n",
+      "enter any number1\n",
+      "summ of lists is : 4\n"
+     ]
+    }
+   ],
+   "source": [
+    "#question no 4\n",
+    "number=int(input(\"how many numbers:\"));\n",
+    "lists=[];\n",
+    "for n in range(numbers):\n",
+    "    numbers=int(input(\"enter any number\"))\n",
+    "    lists.append(numbers);\n",
+    "print(\"summ of lists is :\",sum(lists));\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "largest number is 9\n"
+     ]
+    }
+   ],
+   "source": [
+    "#question no 5\n",
+    "arr=[1,2,3,4,6,7,8,9];\n",
+    "print(\"largest number is\",arr[-1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1, 2, 3]\n"
+     ]
+    }
+   ],
+   "source": [
+    "#question no 6\n",
+    "a=[1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]\n",
+    "x=arr[0:3];\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
